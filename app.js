@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({
 //creating a session
 
 app.use(session({
-  secret: "Jabtakdilmehaifaiththisworldisalovelyplacedilmerakhnatufighteverything",
+  secret: "This is not a secret",
   resave: false,
   saveUninitialized: true,
 }));
